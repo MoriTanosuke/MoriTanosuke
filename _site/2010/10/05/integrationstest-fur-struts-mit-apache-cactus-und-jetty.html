@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<!-- 
+320 and Up boilerplate extension
+Author: Andy Clarke
+Version: 0.9b
+URL: http://stuffandnonsense.co.uk/projects/320andup 
+-->
+
+<!--[if IEMobile 7 ]><html class="no-js iem7" manifest="default.appcache?v=1"><![endif]-->
+<!--[if lt IE 7 ]><html class="no-js ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" manifest="default.appcache?v=1" lang="en"><!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+
+<title>Integrationstest für Struts mit Apache Cactus und Jetty</title>
+<meta name="description" content="">
+<meta name="author" content="your name">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1">
+
+<!-- robots -->
+<meta name="robots" content="/robots.txt" />
+
+<!-- For less capable mobile browsers
+<link rel="stylesheet" media="handheld" href="css/handheld.css?v=1">  -->
+
+<!-- For all browsers -->
+<link rel="stylesheet" media="screen" href="/css/style.css?v=1">
+<link rel="stylesheet" media="print" href="/css/print.css?v=1">
+<!-- For progressively larger displays -->
+<link rel="stylesheet" media="only screen and (min-width: 480px)" href="/css/480.css?v=1">
+<link rel="stylesheet" media="only screen and (min-width: 768px)" href="/css/768.css?v=1">
+<link rel="stylesheet" media="only screen and (min-width: 992px)" href="/css/992.css?v=1">
+<link rel="stylesheet" media="only screen and (min-width: 1382px)" href="/css/1382.css?v=1">
+<!-- For Retina displays -->
+<link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)" href="/css/2x.css?v=1">
+
+<!-- JavaScript at bottom except for Modernizr -->
+<script src="js/libs/modernizr-1.7.min.js"></script>
+
+<!-- For iPhone 4 -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/h/apple-touch-icon.png">
+<!-- For iPad 1-->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/m/apple-touch-icon.png">
+<!-- For iPhone 3G, iPod Touch and Android -->
+<link rel="apple-touch-icon-precomposed" href="/img/l/apple-touch-icon-precomposed.png">
+<!-- For Nokia -->
+<link rel="shortcut icon" href="/img/l/apple-touch-icon.png">
+<!-- For everything else -->
+<link rel="shortcut icon" href="/favicon.ico">
+
+<!--iOS. Delete if not required -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-startup-image" href="/img/splash.png">
+
+<!--Microsoft. Delete if not required -->
+<meta http-equiv="cleartype" content="on">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<!-- http://t.co/y1jPVnT -->
+<link rel="canonical" href="/2010/10/05/integrationstest-fur-struts-mit-apache-cactus-und-jetty.html">
+</head>
+
+
+<body class="clearfix">
+
+<header role="banner" class="clearfix">
+<h1>Integrationstest für Struts mit Apache Cactus und Jetty</h1>
+</header>
+
+<div class="content clearfix">
+
+<article role="main">
+<div id="post">
+<pre><code>&lt;p&gt;Ich versuche gerade&amp;nbsp;einen Unit-Test f&amp;uuml;r&amp;nbsp;meine Struts-Actions in einem Servlet-Container zu schreiben. Dazu will ich &lt;a href="http://jakarta.apache.org/cactus"&gt;Cactus&lt;/a&gt; und &lt;a href="http://jetty.codehaus.org/jetty/"&gt;Jetty&lt;/a&gt; verwenden. Leider hapert es nach dem Einrichten meines &lt;a href="http://eclipse.org/"&gt;Eclipse&lt;/a&gt;-Projekts beim Start der &lt;a href="http://junit.org/"&gt;JUnit&lt;/a&gt;-Testsuite:&lt;/p&gt;
+</code></pre>
+
+<div class="CodeRay">
+  <div class="code"><pre>java.lang.NoSuchMethodException: org.mortbay.jetty.nio.SelectChannelConnector.setPort(java.lang.String)
+        at java.lang.Class.getMethod(Class.java:1078)
+        at org.apache.cactus.extension.jetty.Jetty6xTestSetup.createServer(Jetty6xTestSetup.java:374)
+        at org.apache.cactus.extension.jetty.Jetty6xTestSetup.setUp(Jetty6xTestSetup.java:210)
+        at org.apache.cactus.extension.jetty.Jetty6xTestSetup$1.protect(Jetty6xTestSetup.java:166)
+        at junit.framework.TestResult.runProtected(TestResult.java:124)
+        at org.apache.cactus.extension.jetty.Jetty6xTestSetup.run(Jetty6xTestSetup.java:175)
+        at org.eclipse.jdt.internal.junit.runner.junit3.JUnit3TestReference.run(JUnit3TestReference.java:130)
+        at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+        at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:460)
+        at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:673)
+        at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:386)
+        at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:196)</pre></div>
+</div>
+
+
+
+
+<p>Jetzt bin ich einigermassen verzweifelt, denn <a href="http://jakarta.apache.org/cactus/integration/integration_jetty.html">die Hilfeseite zum Setup von Cactus und Jetty</a> gibt nicht viel her. Also fange ich ein neues Projekt an und erstelle mir eine simple Action, die einen Parameterstring umkehrt und als Attribut in den Request legt und einen Unit Test dazu. Ausserdem werden einige Properties von Cactus ben&ouml;tigt, um den Servlet-Container hochfahren zu k&ouml;nnen.</p>
+
+
+<p><p><a href="http://gist.github.com/611307">http://gist.github.com/611307</a></p></p>
+
+
+<p>Leider bringt das nicht den gew&uuml;nschten Erfolg, den die Ausf&uuml;hrung des Tests bringt dieses Fenster zutage:<img src="http://blog.kopis.de/wp-content/uploads/2010/10/SS-2010-10-05_12.05.42.png.scaled500-300x147.png" width="357" height="175"/>
+</p>
+
+
+<p>Damit kann ich im Moment noch gar nichts anfangen. Bis jetzt habe ich meine Junit-Tests immer direkt mit Annotations versehen und konnte sie einfach ausf&uuml;hren. Das Zusammenspiel der TestSuite, des Tests und des Servlet-Containers stimmt anscheinend nicht.</p>
+
+
+<p><strong>Update</strong> Ich habe jetzt versucht, den Unit Test mit Junit 3 auszuf&uuml;hren und das Ergebnis sieht schon anders aus:</p>
+
+
+<div class="CodeRay">
+  <div class="code"><pre>java.lang.SecurityException: sealing violation: package org.mortbay.jetty is sealed
+        at java.net.URLClassLoader.defineClass(URLClassLoader.java:234)
+        at java.net.URLClassLoader.access$000(URLClassLoader.java:58)
+        at java.net.URLClassLoader$1.run(URLClassLoader.java:197)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+        at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+        at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+        at java.lang.ClassLoader.loadClass(ClassLoader.java:248) </pre></div>
+</div>
+
+
+
+
+<p>Also geht's weiter bei <a href="http://www.google.de/search?q=SecurityException:+sealing+violation+cactus+jetty">Google</a> und <a href="http://stackoverflow.com/">Stackoverflow</a>.</p>
+
+
+
+
+</div>
+
+<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    
+      <li><span>18 Jun 2011</span> &raquo; <a href="/2011/06/18/greasemonky-skript-externe-links-in-tab-offnen.html">Greasemonky-Skript: Externe Links in Tab öffnen</a></li>
+    
+      <li><span>18 Jun 2011</span> &raquo; <a href="/2011/06/18/evil-apple.html">Evil Apple</a></li>
+    
+      <li><span>17 Jun 2011</span> &raquo; <a href="/2011/06/17/die-wartungsseite-von-fitbit.html">Die Wartungsseite von Fitbit</a></li>
+    
+  </ul>
+</div>
+</article>
+
+<aside role="complementary">
+</aside>
+
+</div>
+
+<footer role="contentinfo" class="clearfix">
+  <p>your license of choice <a href="your homepage">your name</a></p>
+</footer>
+
+<!-- mathiasbynens.be/notes/async-analytics-snippet Change UA-XXXXX-X to be your site's ID -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.5.1.min.js">\x3C/script>')</script>
+<!-- Scripts -->
+<script src="/js/plugins.js"></script>
+<script src="/js/script.js"></script>
+
+<!--[if (lt IE 9) & (!IEMobile)]>
+<script src="/js/libs/DOMAssistantCompressed-2.8.js"></script>
+<script src="/js/libs/selectivizr-1.0.1.js"></script>
+<script src="/js/libs/respond.min.js"></script>
+<![endif]-->
+
+<!-- http://t.co/HZe9oJ4 -->
+<script>
+var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+<noscript>Your browser does not support JavaScript!</noscript>
+
+</body>
+</html>
