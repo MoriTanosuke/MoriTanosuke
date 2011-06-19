@@ -1,0 +1,12 @@
+--- 
+wordpress_id: 61
+layout: post
+title: "Lametta "
+wordpress_url: http://blog.kopis.de/?p=61
+---
+
+    <p><a href='http://blog.kopis.de/wp-content/uploads/2010/09/image.jpeg.scaled10001.jpg'><img src="http://blog.kopis.de/wp-content/uploads/2010/09/image.jpeg.scaled10001-225x300.jpg" width="500" height="667"/></a>
+</p>
+
+<div class="posterous_quote_citation">via twidroid</div>
+  

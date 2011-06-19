@@ -1,0 +1,17 @@
+--- 
+wordpress_id: 702
+layout: post
+title: Bitcoin
+wordpress_url: http://blog.kopis.de/?p=702
+---
+Meine <a href="http://bitcoin.org/">Bitcoin</a>-Adresse ist <strong>15QiUXXBjqkATFj5HZn5ASUqbnrS2rD1Lg</strong> - falls ihr ein paar Münzen übrig habt. ;-)
+
+Seit ein paar Tagen hab ich viel über <a href="http://bitcoin.org/">Bitcoin</a> gelesen, eine virtuelle Währung, die per Peer-to-peer-Netzwerk übertragen wird. Damit gibt es keine zentrale Instanz, die über die Währung verfügen kann. <a href="http://launch.is/blog/l019-bitcoin-p2p-currency-the-most-dangerous-project-weve-ev.html">Die Werte können auch nicht "eingefroren", nicht zurückverfolgt</a> und (wahrscheinlich) <a href="http://www.spiegel.de/netzwelt/netzpolitik/0,1518,765382,00.html">nur schwer gefälscht werden</a>.
+
+Wenn ihr einsteigen wollt, lest euch <a href="http://go-bitcoin.com/">http://go-bitcoin.com/</a> durch.
+
+Das ganze <a href="http://bitcoin.org/bitcoin.pdf">basiert auf Kryptografie</a> und die gesamte Zahlungshistorie soll in einer Bitcoin-Transaktion nachzulesen sein. Allerdings gibt es auch ein paar Sicherheitsbedenken, ob findige Hacker nicht früher oder später die Kryptografie knacken und anschliessend selbst Geld "<em>drucken</em>" können... ich weiß noch nicht, wie ich dazu stehe, aber interessant ist das ganze schon.
+
+Überhaupt sehe ich in den letzten Monaten immer mehr Entwicklungen, die wie in den bekannten SciFi-Büchern ablaufen: Regierungen brechen zusammen bzw werden von Megakonzernen übernommen, Währungen verschwinden im Bodenlosen, Globalisierung macht die lokalen Märkte kaputt bis der Kapitalismus zusammenbricht und alternative Zahlungssysteme und Gemeinschaften alle wichtigen Funktionen übernehmen.
+
+Tja, mal sehen, wo das alles hinführt.

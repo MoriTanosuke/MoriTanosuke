@@ -1,0 +1,13 @@
+--- 
+wordpress_id: 98
+layout: post
+title: go-flickr
+wordpress_url: http://blog.kopis.de/?p=98
+---
+
+    Meine ersten Schritte mit <a href="http://golang.org/">#golang</a> habe ich hier im Blog dokumentiert. Als erstes Projekt habe ich mir ein Package vorgenommen, mit dem ich Bilder von <a href="http://www.flickr.com">Flickr</a> runterladen kann. Dazu geh&ouml;rt der <a href="http://www.flickr.com/services/api/">Zugriff auf die XML-API</a> und die Authentifizierung - trotzdem klein genug, um einen Start in <a href="http://golang.org/">#golang</a> zu erm&ouml;glichen.
+
+Ich habe das Projekt bei bitbucket ver&ouml;ffentlicht, ihr k&ouml;nnt es per <a href="http://mercurial.selenic.com/">Mercurial</a> (demn&auml;chst wohl eher <a href="http://git-scm.com/">per Git</a>)&nbsp;unter
+<p style="text-align: center;"><a href="http://bitbucket.org/cringe/go-flickr">http://bitbucket.org/cringe/go-flickr</a></p>
+clonen und selbst daran weiterarbeiten.
+  

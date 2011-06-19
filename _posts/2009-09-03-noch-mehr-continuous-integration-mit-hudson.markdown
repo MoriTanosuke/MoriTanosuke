@@ -1,0 +1,9 @@
+--- 
+wordpress_id: 154
+layout: post
+title: Noch mehr Continuous Integration mit Hudson
+wordpress_url: http://blog.kopis.de/?p=154
+---
+
+    Seit einiger Zeit spiele ich mit <a href="https://hudson.dev.java.net/">Hudson</a> als <i>Continuous Integration Server</i> herum. Mittlerweile bin ich recht weit fortgeschritten in meinen Planspielen und mache ich mich daran, alles in den Produktivbetrieb r&uuml;ber zu hieven. Das gestaltet sich technisch nicht schwierig, aber es gibt in einem Unternehmen auch andere Klippen zu umschiffen... ;-)<p /><div>Einige Projekte laufen mittlerweile still und leise mit. Ich habe den cronjob-Mechanismus von Hudson benutzt, um in regelm&auml;ssigen Intervallen unser Subversion-Repository zu pr&uuml;fen und bei &Auml;nderungen in den Projekten einen Build zu starten. Anschliessend werden evtl vorhandene Unit-Tests durchgef&uuml;hrt und eine statische Sourcecode-Analyse durchgef&uuml;hrt. Das l&auml;uft jetzt f&uuml;r .NET-, Java- und C-Projekte.</div><p /><div>Leider hat das <a href="http://wiki.hudson-ci.org/display/HUDSON/Cppcheck+Plugin">Plugin</a> f&uuml;r <a href="http://cppcheck.wiki.sourceforge.net/">cppcheck</a>, mit dem ich eine (provisorische) Analyse f&uuml;r C-Quelltexte durchf&uuml;hren will, noch ein paar Bugs. Da die C-Projekte auf einem Slave laufen, sind die Dateien im Moment noch nicht f&uuml;r den Fehlerreport auf dem Master verf&uuml;gbar. Aber die Antwortzeiten des Entwicklers sind erfreulich kurz. Ich hoffe jedenfalls, dass der Bugfix demn&auml;chst auch mein Master/Slave-System einsatzbereit macht und ich anschliessend alle Maschinen geordnet auf einen Produktiv-Vmware-Server umziehen kann.</div><p /><div>Langsam scheint auch mein gepflanztes Gedankengut zu Continuous Integration, Testing, statischer Analyse und Hudson allgemein im Unternehmen anzukommen... :-) Ich versp&uuml;re jedenfalls Fortschritte - oder bilde sie mir ein.</div>
+  

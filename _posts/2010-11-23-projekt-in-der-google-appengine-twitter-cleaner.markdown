@@ -1,0 +1,9 @@
+--- 
+wordpress_id: 22
+layout: post
+title: "Projekt in der Google AppEngine: Twitter Cleaner"
+wordpress_url: http://blog.kopis.de/?p=22
+---
+
+    Ich habe vor einiger Zeit angefangen, ein kleines Projekt in der <a href="http://code.google.com/intl/de-DE/appengine/" target="_blank">Google AppEngine</a> zu erstellen: der <a href="http://twittercleaner.appspot.com/" target="_blank">TwitterCleaner</a>. <p /><div>Damit will ich die Möglichkeit schaffen, einen <a href="http://twitter.com/" target="_blank">Twitter-Account</a> ohne Neuanmeldung und Umbenennung von alten Tweets zu befreien. Im Prinzip das gleiche wie <a href="http://twitwipe.aalaap.com/" target="_blank">TwitWipe</a>, aber eben selbst gemacht und auf der AppEngine.</div> <p /><div>Im Moment kann ich schon die aktuelle Timeline einsehen und die Tweets auf der ersten Seite löschen. Im Prinzip kann man also bereits manuell alle Tweets  löschen, etwas bequemer als bei Twitter selbst, wo nur ein Tweet einzeln gelöscht werden kann. Es gibt einfach keine Massenabfrage dafür.</div> <p /><div>Als nächste will ich das Löschen auf die <a href="http://code.google.com/intl/de-DE/appengine/docs/java/taskqueue/overview.html" target="_blank">Task Queue API</a> umstellen, damit das Löschen im Hintergrund erfolgen kann und man nur benachrichtigt wird, wenn alles abgeschlossen ist. Mein Problem ist noch die Parameterübergabe an die Task und das <a href="http://dev.twitter.com/pages/rate-limiting" target="_blank">Rate Limit</a> der <a href="http://apiwiki.twitter.com" target="_blank">Twitter API</a>. Mit <a href="http://dev.twitter.com/pages/rate-limiting" target="_blank">150 Zugriffen pro Stunde</a> kann man einfach nicht besonders viel löschen, oder ich hab noch nicht die richtige Abfrage in der Twitter API gefunden.</div> <p /><div>Das ganze ist eher ein Lernprojekt als ein</div>
+  

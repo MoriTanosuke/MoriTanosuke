@@ -1,0 +1,18 @@
+--- 
+wordpress_id: 59
+layout: post
+title: Wieviel muss man lesen?
+wordpress_url: http://blog.kopis.de/?p=59
+---
+
+    <p><a href="http://www.ralfw.de/default.html">Ralf Westphal</a> hat <a href="http://ralfw.blogspot.com/2010/09/lesen-heute-fur-softwareentwickler.html">einen l&auml;nglichen Artikel &uuml;ber die Pflicht eines Softwareentwicklers zum t&auml;glichen Lesen</a> verfasst. Und ich kann nicht an mich halten und muss auch einen Kommentar dazu abgeben.</p>
+<p>Ich stehe auch auf dem Standpunkt, dass Lesen von Fachb&uuml;chern eigentlich zum Beruf des Softwareentwicklers geh&ouml;rt. Genau wie das Besch&auml;ftigen mit neuen Technologien und der eigenen Weiterbildung. Den Hintergrund zu dieser Einstellung fasst Ralf in einem kleinen Absatz in der Mitte gut zusammen:</p>
+<blockquote class="posterous_medium_quote">
+<p>Erstens sollte es jedem am Herzen liegen, seine Kompetenz hoch zu halten. Denn hohe Kompetenz bedeutet Freiheit. Wer kompetent ist, kann sich im Notfall oder auch ohne Not den Job aussuchen. Wer mit veraltetem Wissen auf seinem Sessel sitzt, der hat diese Freiheit nicht.</p>
+</blockquote>
+<p>Wer sich nicht mit den Neuigkeiten im Bereich der Softwareentwicklung besch&auml;ftigt, der kann irgendwann nur noch mit altem Wissen an neue Problemstellungen herangehen. Und das ist weder produktiv, noch besonders spa&szlig;ig. Und ausserdem: Wer entdeckt denn nicht gern neue Wege zu einem Ziel?</p>
+<p>Ich besch&auml;ftige mich auch oft und gern mit neuen Dingen, sei es jetzt die <a href="http://code.google.com/intl/de-DE/appengine/">Google AppEngine</a>, eine Sprache wie <a href="http://golang.org">golang</a> oder seit kurzem funktionalen Sprachen wie <a href="http://clojure.org/">Clojure</a>. Und nebenbei lese ich auf den Zugfahrten oder abends noch in B&uuml;chern wie <a href="http://www.amazon.de/Continuous-Integration-Improving-Software-Signature/dp/0321336380/kopisde-21">Continuous Integration</a> (und demn&auml;chst dem Nachfolger <a href="http://www.amazon.de/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912/kopisde-21">Continuous Delivery</a>) oder <a href="http://www.amazon.de/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683/kopisde-21">Enterprise Integration Patterns</a>.</p>
+<p>Aber kann man daraus den Anspruch ableiten, jeder Entwickler muss jeden Tag mindestens 30min lesen? Ich bin mir nicht sicher. Ich lese diese B&uuml;cher, wenn ich Lust dazu habe. Wenn ich etwas neues lernen will. Oder wenn ich mir eine gute Beschreibung zu Patterns anlesen will, die ich schon oft benutzt, aber nie richtig dar&uuml;ber nachgedacht habe. Und ich spiele mit der AppEngine herum, wenn ich Cloud-Architekturen ausprobieren will. Oder weil ich eine Idee zu einer kleinen Anwendung habe, die ich ausprobieren will. Oder einfach, weil ich ein wenig Zeit totschlagen m&ouml;chte, bevor mir langweilig wird... ;-)</p>
+<p>Ich sehe das so: Wenn ich lesen will, lese ich. Wenn ich nicht lesen will, lese ich nicht. Aber ich werde mich nicht dazu zwingen, mich auf diese Art weiterzubilden und damit f&uuml;r den Markt wertvoller zu machen.  F&uuml;r mich l&auml;uft die Frage "<em>Wieviel muss man lesen?</em>" letztendlich wieder auf <a href="http://en.wikipedia.org/wiki/Software_craftsmanship">Software craftsmanship</a> hinaus: Wer ein guter Entwickler sein will, der besch&auml;ftigt sich automatisch mit seiner Profession. Und wer nur in diesem Beruf arbeitet, weil er irgendwie sein Geld verdienen will, der tut das nicht.</p>
+<p>Achso, ein Nachtrag noch: Lest euch Ralfs Artikel ruhig mal durch, die kleine Berechnung am Anfang ist ganz interessant. Und dann &uuml;berlegt euch mal, wie viel Zeit ihr f&uuml;r das Lesen aufbringt. ;-)</p>
+  

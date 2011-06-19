@@ -1,0 +1,9 @@
+--- 
+wordpress_id: 166
+layout: post
+title: Voll.
+wordpress_url: http://blog.kopis.de/?p=166
+---
+
+    <p>Jetzt hab ich so viel Fisch und Salat gegessen, dass ich mich kaum noch r&uuml;hren kann. Aber da sowieso nix im TV kommt und ich auch keine Lust mehr auf Java hab, fahr ich einfach sp&auml;ter f&uuml;r's Cardio ins Studio. Dann sind wenigstens die <a href="http://kopis.wordpress.com/2009/01/12/die-leute/">Deppen</a> weg...</p>
+  

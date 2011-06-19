@@ -1,0 +1,14 @@
+--- 
+wordpress_id: 616
+layout: post
+title: 160kg
+wordpress_url: http://blog.kopis.de/2011/04/20/160kg-2/
+---
+<div style="text-align: left; padding: 3px;">
+<a href="http://www.flickr.com/photos/cringe/5634365501/" title="photo sharing"><img src="http://farm6.static.flickr.com/5188/5634365501_322a762fd6.jpg" style="border: solid 2px #000000;" alt="" /></a>
+<br />
+<span style="font-size: 0.8em; margin-top: 0px;"><a href="http://www.flickr.com/photos/cringe/5634365501/">160kg</a>, originally uploaded by <a href="http://www.flickr.com/photos/cringe/">cringe</a>.</span>
+</div>
+<p>
+Endlich kann ich etwas Ordnung in meinem Keller schaffen.
+</p>

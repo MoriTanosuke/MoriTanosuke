@@ -1,0 +1,17 @@
+--- 
+wordpress_id: 42
+layout: post
+title: Lowcarb
+wordpress_url: http://blog.kopis.de/?p=42
+---
+
+    <p><strong>Morgens</strong></p>
+<p><a href="http://www.flickr.com/photos/cringe/5067427400/" title="IMG_20101010_101736.jpg by cringe, on Flickr"><img src="http://farm5.static.flickr.com/4092/5067427400_4e50294fcb_m.jpg" height="180" alt="IMG_20101010_101736.jpg" style="display: block; margin-left: auto; margin-right: auto;" width="240" /></a></p>
+<p>Besteht aus 3 Eiern, 1 Cabanossi und 1 Paprika. Kohlenhydrate: 10g. 733kcal</p>
+<p><strong>Nachmittags</strong></p>
+<p><a href="http://www.flickr.com/photos/cringe/5067795756/" title="Apfelkuchen mit Zimtsahne by cringe, on Flickr"><img src="http://farm5.static.flickr.com/4148/5067795756_2521ae739e_m.jpg" height="180" alt="Apfelkuchen mit Zimtsahne" style="display: block; margin-left: auto; margin-right: auto;" width="240" /></a></p>
+<p>Apfelkuchen mit Zimtsahne (ja gut, nicht wirklich lowcarb...)</p>
+<p><strong>Abends </strong></p>
+<p><strong></strong><a href="http://www.flickr.com/photos/cringe/5068122524/" title="Cabanossi, Krautsalat, Feta by cringe, on Flickr"><img src="http://farm5.static.flickr.com/4146/5068122524_be76fbf514_m.jpg" height="240" alt="Cabanossi, Krautsalat, Feta" style="display: block; margin-left: auto; margin-right: auto;" width="180" /></a></p>
+<p>Zweite Cabanossi, Feta, Krautsalat</p>
+  

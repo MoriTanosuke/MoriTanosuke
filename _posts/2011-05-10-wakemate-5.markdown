@@ -1,0 +1,11 @@
+--- 
+wordpress_id: 645
+layout: post
+title: Das Wakemate ist angekommen
+wordpress_url: http://blog.kopis.de/2011/05/10/wakemate-5/
+---
+Der Versand war rasant! Ich hatte eigentlich vor nächster Woche gar nicht mit dem Gadget gerechnet, aber heute lag der dünne Umschlag bereits im Briefkasten. :-)
+
+Als erstes hab ich das Armband natürlich anprobiert und das <a href="http://wakemate.com">Wakemate</a> mit meinem <a href="http://de.wikipedia.org/wiki/Nexus_One">Android Nexus One</a> per Bluetooth verbunden. Im Moment lädt das Gerät gerade auf, damit ich es heute nacht direkt testen kann.
+
+<a title="Wakemate by cringe, on Flickr" href="http://www.flickr.com/photos/cringe/5707263266/"><img class="aligncenter" src="http://farm3.static.flickr.com/2212/5707263266_e428ca27ee_m.jpg" alt="Wakemate" width="180" height="240" /></a><a title="Wakemate by cringe, on Flickr" href="http://www.flickr.com/photos/cringe/5707263096/"><img src="http://farm3.static.flickr.com/2378/5707263096_3a533caa2a_m.jpg" alt="Wakemate" width="240" height="180" /></a><a title="Wakemate by cringe, on Flickr" href="http://www.flickr.com/photos/cringe/5706697871/"><img src="http://farm3.static.flickr.com/2278/5706697871_1101365979_m.jpg" alt="Wakemate" width="240" height="180" /></a><a title="Wakemate by cringe, on Flickr" href="http://www.flickr.com/photos/cringe/5707262518/"><img src="http://farm4.static.flickr.com/3609/5707262518_68c69264b8_m.jpg" alt="Wakemate" width="180" height="240" /></a><a title="Wakemate by cringe, on Flickr" href="http://www.flickr.com/photos/cringe/5707262188/"><img src="http://farm3.static.flickr.com/2108/5707262188_dec2f7e66b_m.jpg" alt="Wakemate" width="180" height="240" /></a>

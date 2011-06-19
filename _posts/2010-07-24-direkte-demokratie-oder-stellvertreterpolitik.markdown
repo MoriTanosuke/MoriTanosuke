@@ -1,0 +1,14 @@
+--- 
+wordpress_id: 74
+layout: post
+title: Direkte Demokratie oder Stellvertreterpolitik?
+wordpress_url: http://blog.kopis.de/?p=74
+---
+
+    <p>Ich habe einen <a href="http://www.mark.linkeblogs.de/2010/07/19/zeit-kritisch-uber-direkte-demokratie-nachzudenkentransparenzbeider/">Artikel &uuml;ber direkte Demokratie und Volksentscheide bei Mark Seibert</a> entdeckt, den ich euch ans Herz legen m&ouml;chte. Er macht sich darin Gedanken &uuml;ber die ungerechte Verteilung der Wahlbeteiligung zugunsten der wohlhabenden Mittelschicht und kommt zu folgendem Schluss</p>
+<blockquote class="posterous_medium_quote">Ich pers&ouml;nlich bin mit dem Thema direkte Demokratie relativ fertig. Alle Entscheide haben gezeigt, dass das Instrument wenn &uuml;berhaupt nicht von der gesamten Bev&ouml;lkerung, sondern nur von Interessengruppen angenommen wird. Und vielleicht ist es auch schlicht und ergreifend so, dass eine komplexe Frage nicht einfach mit Ja oder Nein beantwortet werden kann.</blockquote>
+<p>Beim letzten Satz kann ich wieder zustimmen: Eine komplexe Frage kann selten mit Ja oder Nein beantwortet werden, es sei denn man vereinfacht sie stark. Dabei muss man aufpassen, dass man die Fragestellung nicht aus den Augen verliert und sich in der Vereinfachung verf&auml;ngt.</p>
+<p><a href="http://dishwasher.blogsport.de/2010/07/18/hamburger-volksentscheid-wahlbeteiligung-spiegelt-armutsverteilung/">Im Artikel ist noch ein weiterer Blog verlinkt, der die Wahlbeteiligung zu der Anzahl der Sozialleistungsempf&auml;nger grafisch darstellt.</a> Und das sieht traurig aus. Eindeutig kann man erkennen, dass die Wahlbeteiligung um so h&ouml;her ist, je wohlhabender die Bev&ouml;lkerung ist. (Gut, es waren auch Teile der Einwohner vom Volksentscheid ausgeschlossen, das verf&auml;lscht das Ergebnis leicht, aber ich denke, der Trend ist erkennbar...)</p>
+<p>Ich sehe das nicht ganz so wie <a href="http://www.mark.linkeblogs.de/vita/">Mark Seibert</a>. Ich finde z.B. das <a href="https://lqpp.de/">Projekt Liquid Feedback der Piratenpartei</a> sehr, sehr gut. Nat&uuml;rlich gibt es damit <a href="http://wiki.piratenpartei.de/BE:Liquid_Democracy_Test">noch ein paar Probleme</a>, aber das wird schon. Vielleicht ist es aber auch etwas anderes, wenn man so ein direktes System innerhalb einer Partei startet, in der sich naturgem&auml;ss Politikinteressierte treffen und nicht in der gesamten Bev&ouml;lkerung, wo die Zahl der Desinteressierten immer weiter steigt...</p>
+<p>Aber in einem Punkt sind wir uns doch einig: Politik muss eigentlich jeden interessieren. Im Moment fehlt es aber an allen Ecken an einer guten Darstellung der Probleme und vor allem der angestrebten L&ouml;sungen. Zu viel passiert hinter verschlossenen T&uuml;ren bzw. <a href="http://www.zeit.de/digital/datenschutz/2010-07/bankdaten-swift-usa-eu">wird im Zeitraum der Fussballweltmeisterschaft durchgewunken</a>.</p>
+  

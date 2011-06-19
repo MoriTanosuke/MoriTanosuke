@@ -1,0 +1,15 @@
+--- 
+wordpress_id: 100
+layout: post
+title: Tom
+wordpress_url: http://blog.kopis.de/?p=100
+---
+
+    <div style="text-align: left; padding: 3px;">
+<img src="http://posterous.com/getfile/files.posterous.com/import-rzzc/ufgeGsbwkCpkAvabfdzlmDcCyduGCmFgjbBDrbsgEoGupglDpozczbDtpGai/media_httpfarm4static_vhsvd.jpg.scaled500.jpg" width="375" height="500"/>
+
+
+<span style="font-size: 0.8em; margin-top: 0px;"><a href="http://www.flickr.com/photos/cringe/2676142031/">Die rote Katze</a>, urspr&uuml;nglich hochgeladen von <a href="http://www.flickr.com/people/cringe/">cringe</a></span>
+</div>
+Nach einigen Wochen Krankheit ist heute leider Tom, unsere Katze, gestorben. Er hat vor einigen Wochen aufgeh&ouml;rt zu fressen und der Tierarzt konnte leider nichts feststellen. Das wird jetzt bestimmt komisch, wenn ich mal wieder zuhause bin...
+  
